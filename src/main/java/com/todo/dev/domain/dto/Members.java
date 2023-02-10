@@ -1,5 +1,6 @@
 package com.todo.dev.domain.dto;
 
+import com.todo.dev.domain.request.SignUpRequest;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

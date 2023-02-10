@@ -6,3 +6,7 @@ spring:
 #   driver-class-name: com.mysql.cj.jdbc.Driver
 mybatis:
   config-location: classpath:mybatis/config/config.xml
+
+jwt:
+  SECRET_KEY: dshlafkjhadskjfhdslajkfhdlshflshlsakhfjsdhflasfhsljbfclbdlhjshlsahjfjksdhfkhfldsfwiehfsahflhfuehslkafhdklhcjkdlbslfjdhjfhlsauehfliwhlfhsjdhflhsadjlkhfjdshfjkhsdjkhjkdhsfjkhdsjfhdjshfdhfuehwuikhshfjdshjfhdsjfhdjsfhjkahjsheuhiuwlfhjdkshfjhsdjfhdsjhfjksdhfdjhfjhskheiwhfiuhuihshadlikjfhdsjkfhhsfueihlsdjjdhdjfhjsdhfjhsdjfhjdhsjfhuehfsajdhfjhfhdkshfshdhfklshdfjkhskdhhfsdjkhfjksdhfjkkdshhfsjkdhfjkdshhdfshfjs
+  EXP_TIME: 3600000
