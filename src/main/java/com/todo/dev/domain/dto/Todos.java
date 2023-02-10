@@ -1,14 +1,12 @@
 package com.todo.dev.domain.dto;
 
-import lombok.AllArgsConstructor;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.ToString;
+import lombok.*;
 
 import java.time.LocalDateTime;
 
-@Getter @ToString
+@Getter @Setter @ToString
 @AllArgsConstructor @NoArgsConstructor
+@Builder
 public class Todos {
     private Integer id;
     private Integer member_id;
